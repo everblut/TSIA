@@ -11,6 +11,9 @@ class OpcionesState(gamestate.GameState):
         self.background = pygame.Surface(self.parent.screen.get_size())
         self.background = self.background.convert()
         self.background.fill((0,255,0))
+        letra = pygame.font.Font(None, 14)
+        self.escribir = letra.render(u"Pulsa ESC para volver.",1, (250,250,250))
+
         
     def start(self):
         print "GameState Opciones Started"
@@ -38,3 +41,4 @@ class OpcionesState(gamestate.GameState):
 
     def draw(self):
         self.parent.screen.blit(self.background, (0,0))
+        self.parent.screen.blit(self.escribir, (10,10))

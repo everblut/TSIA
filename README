@@ -1,1 +1,38 @@
-repositorio para el proyecto grupal de la materia de TSIA, temporalmente aloja solo un ejemplo prueba
+Repositorio para el proyecto grupal de la materia de TSIA, temporalmente aloja solo un ejemplo prueba.
+
+
+El documento esta compuesto por los siguientes scripts
+
+Directorio principal
+	   mapa.py
+	   personaje.py
+	   juego.py
+
+***********Directorio utilidades
+		      imagen.py
+		      archivo.py
+
+***********Directorio gamemanager
+	   	      fpsclock.py 
+	   	      gamemanager.py
+		      singleton.py
+
+	   ***********Directorio states
+	   	      		 gamestate.py
+		      		 menustate.py
+		      		 opcionstate.py
+		      		 pantallastate.py
+
+El contenido adicional se encuentra en la carpeta data del directorio raiz
+
+Directorio data
+********Directorio imagenes
+	enemigo.png
+	jugador.png
+	policia.png
+	tileset.png
+
+********Directorio mapas
+	prueba.tmx	
+
+Cada uno de los archivos explica su funcionamiento.

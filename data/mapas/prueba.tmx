@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="40" height="30" tilewidth="16" tileheight="16">
  <tileset firstgid="1" name="tileset" tilewidth="16" tileheight="16">
-  <image source="../imagenes/tileset.png" trans="ff00ff" width="160" height="160"/>
+  <image source="../imagenes/tileset.png" trans="ff00ff" width="160" height="208"/>
  </tileset>
  <layer name="Pisable" width="40" height="30">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3XsQkAIAwF0WT/pcUFVLgUkdzBb8MrbMyISIfXqe6+nT6WPpY+1lRf1U19dXcmvb+q9LH0sfSxfvN1+5PcHPrO6WO9+Nx9C+fhFsLAEgAA
+   H4sIAAAAAAAAA+3XwQkAIAzF0Hb/pd3ACqlQMYF/Le/gxYyIdHjT0sfSx9LH0se65eu6qa/vzk/vryt9LH0sfazXfNP+TJVD3z59rBOfq7cA7jWWBcASAAA=
   </data>
  </layer>
  <layer name="Suelo" width="40" height="30">

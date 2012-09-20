@@ -5,7 +5,7 @@ import sys
 import pygame
 from pygame.locals import *
 from singleton import *
-
+from personaje import *
 
 class GameManager(object):
     
@@ -21,6 +21,11 @@ class GameManager(object):
         self.screen = pygame.display.set_mode(size)
         
         pygame.display.set_caption(titulo)
+        self.jugador = Personaje('player','data/imagenes/jugador.png')  
+        self.background = pygame.Surface(self.screen.get_size())
+        self.background = self.background.convert()
+        self.background.fill((0, 0, 0))        
+
         pygame.mouse.set_visible(0)
         
     def cleanUp(self):

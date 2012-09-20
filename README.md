@@ -1,4 +1,0 @@
-TSIA
-====
-
-Proyecto Grupal TSIA
